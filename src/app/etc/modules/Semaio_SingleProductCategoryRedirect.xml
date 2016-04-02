@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * This file is part of the Semaio_SingleProductCategoryRedirect module.
+ *
+ * See LICENSE.md bundled with this module for license details.
+ *
+ * @category  Semaio
+ * @package   Semaio_SingleProductCategoryRedirect
+ * @author    semaio GmbH <hello@semaio.com>
+ * @copyright 2016 semaio GmbH (http://www.semaio.com)
+ */
+-->
+<config>
+    <modules>
+        <Semaio_SingleProductCategoryRedirect>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Semaio_SingleProductCategoryRedirect>
+    </modules>
+</config>

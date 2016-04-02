@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * This file is part of the Semaio_SingleProductCategoryRedirect module.
+ *
+ * See LICENSE.md bundled with this module for license details.
+ *
+ * @category  Semaio
+ * @package   Semaio_SingleProductCategoryRedirect
+ * @author    semaio GmbH <hello@semaio.com>
+ * @copyright 2016 semaio GmbH (http://www.semaio.com)
+ */
+-->
+<config>
+    <modules>
+        <Semaio_SingleProductCategoryRedirect>
+            <version>1.0.0</version>
+        </Semaio_SingleProductCategoryRedirect>
+    </modules>
+    <global>
+        <helpers>
+            <semaio_singleproductcategoryredirect>
+                <class>Semaio_SingleProductCategoryRedirect_Helper</class>
+            </semaio_singleproductcategoryredirect>
+        </helpers>
+        <models>
+            <semaio_singleproductcategoryredirect>
+                <class>Semaio_SingleProductCategoryRedirect_Model</class>
+            </semaio_singleproductcategoryredirect>
+        </models>
+    </global>
+    <frontend>
+        <events>
+            <catalog_controller_category_init_after>
+                <observers>
+                    <timste_singleproductcategoryredirect>
+                        <class>semaio_singleproductcategoryredirect/observer_redirect</class>
+                        <method>execute</method>
+                    </timste_singleproductcategoryredirect>
+                </observers>
+            </catalog_controller_category_init_after>
+        </events>
+    </frontend>
+    <default>
+        <catalog>
+            <singleproductcategoryredirect>
+                <enabled>0</enabled>
+            </singleproductcategoryredirect>
+        </catalog>
+    </default>
+    <phpunit>
+        <suite>
+            <modules>
+                <Semaio_SingleProductCategoryRedirect/>
+            </modules>
+        </suite>
+    </phpunit>
+</config>
