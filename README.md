@@ -8,6 +8,10 @@ Build Status
 * Latest Release: [![Master Branch](https://travis-ci.org/semaio/Magento1-SingleProductCategoryRedirect.svg?branch=master)](https://travis-ci.org/semaio/Magento1-SingleProductCategoryRedirect)
 * Development Branch: [![Develop Branch](https://travis-ci.org/semaio/Magento1-SingleProductCategoryRedirect.svg?branch=develop)](https://travis-ci.org/semaio/Magento1-SingleProductCategoryRedirect)
 
+Facts
+-----
+* Version: 1.0.0
+
 Functionality
 -------------
 
