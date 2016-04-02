@@ -3,6 +3,11 @@ Semaio_SingleProductCategoryRedirect
 
 Redirect directly to product if category contains only one product.
 
+Build Status
+------------
+* Latest Release: [![Master Branch](https://travis-ci.org/semaio/Magento1-SingleProductCategoryRedirect.svg?branch=master)](https://travis-ci.org/semaio/Magento1-SingleProductCategoryRedirect)
+* Development Branch: [![Develop Branch](https://travis-ci.org/semaio/Magento1-SingleProductCategoryRedirect.svg?branch=develop)](https://travis-ci.org/semaio/Magento1-SingleProductCategoryRedirect)
+
 Functionality
 -------------
 
